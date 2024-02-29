@@ -9,4 +9,6 @@ edition = "2021"
 actix-web = "4"
 derive_more = "0.99.17"
 serde = { version = "1.0", features = ["derive"] }
+diesel = { version = "2.1.0", features = ["postgres", "r2d2", "chrono"] }
 serde_json = "1.0.96"
+dotenv = "0.15.0"
